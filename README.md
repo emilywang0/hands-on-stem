@@ -6,3 +6,5 @@
 Github Link:
 > https://github.com/emilywang0/hands-on-stem
 
+TO CREATE NEW WEBPAGE: 
+use template.html

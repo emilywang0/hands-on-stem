@@ -1,141 +1,42 @@
 <!DOCTYPE html>
 
-<style>
-    .main-webpage {
-        color: black;
-        font-size: 35px;
-        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        padding: 30px 30px 30px 30px;
-        margin: 30px 30px 30px 30px;
-    }
-    .sub-page {
-        color: green;
-        font-size: 20px;
-        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        padding: 30px 30px 30px 30px;
-        margin: 30px 30px 30px 30px;
-    }
-    a:visited {
-        color: black;
-        background-color: transparent;
-        text-decoration: none;
-    }
-    .why-join {
-        font-size: 20px;
-        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        padding: 30px 30px 30px 30px;
-        margin: 30px 30px 30px 30px;
-        border-style:solid;
-        background-color:rgb(239, 229, 202);
-    }
-    .mailing-list, .donate {
-        padding: 30px 30px 30px 30px;
-        margin: 30px 30px 30px 30px;
-        border-style:solid;
-        background-color:rgb(239, 229, 202);
-    }
-    .footer {
-        color: black;
-        font-size: 18px;
-        text-align:center;
-        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
-    #about-clubs {
-        color: black;
-        font-size: 50px;
-        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        padding: 10px 10px 30px 30px;
-        margin: 10px 10px 30px 30px;
-    }
-    #about-info {
-        color: black;
-        font-size: 17px;
-        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        padding: 10px 10px 30px 30px;
-        margin: 10px 10px 30px 30px;
-        text-align:left;
-        width:40%;
-    }
-    #hos-logo {
-        padding: 10px 10px 30px 30px;
-        margin: 10px 10px 30px 30px;
-        width:10%;
-        float:right;
-    }
-    #name, #submit {
-        width:312px;
-    }
-    #email, #phone {
-        width:150px;
-    }
-    #message {
-        width:312px;
-        height:50px;
-    }
-    #border {
-        color:black;
-        border-style:solid;
-        background:rgb(239, 229, 202);
-    }
-</style>
-
 <html>
     <body style="background-color:rgb(222, 251, 215)">
-        <div>
-            <a class="main-webpage" href="./index.html">HANDS-ON STEM</a> 
-            <div class="sub-page" style="display:inline-block">
-                <a target="_blank" rel="noopener noreferrer" href="./index.html">HOME</a>
-                <a target="_blank" rel="noopener noreferrer" href="./about.html">ABOUT</a>
-                <a target="_blank" rel="noopener noreferrer" href="https://handsonstem.wixsite.com/my-site/workshops">WORKSHOPS</a>
-                <a target="_blank" rel="noopener noreferrer" href="https://handsonstem.wixsite.com/my-site/research-mentorship">RESEARCH MENTORSHIP</a>
-                <a target="_blank" rel="noopener noreferrer" id="border" href="./donate.html">DONATE</a>
-                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/handsonstem/"><img src="https://static.wixstatic.com/media/e1aa082f7c0747168d9cf43e77046142.png/v1/fill/w_26,h_26,al_c,q_95/e1aa082f7c0747168d9cf43e77046142.webp"></a>
-            </div>
+        <link rel="stylesheet" href="./styles.css">
+        <div class="head">
+            <iframe src = "HEADER.html" height="180" width="100%" ></iframe>
         </div>
-        <div class="body">
-            <h1 id="about-clubs">About Our Clubs</h1>
-            <div style="display:inline-block">
-                <img id="hos-logo" src="./HoS logo.webp">
-                <p id="about-info">Hands-On STEM has branch clubs at various high schools. These are educational outreach clubs that raise awareness about the racial achievement gap in the Bay Area.  Members learn about the racial inequities in our school system through our cultural competency program. Members participate in designing and mentoring for our workshops throughout the year.  </p>
 
-            </div>
-            <div class="why-join">
-                <h2>Why Join Hands on Stem?</h2>
-                <ul>
-                    <li>Hands-On STEM is the only STEM-oriented service club on campus</li>
-                    <li>Learn about discrimination in the education system</li>
-                    <li>Earn 100+ volunteer hours through long-term volunteer opportunities </li>
-                    <li>Develop a  variety of skills such as marketing including Web/graphic design, Social media outreach, fundraising, grant writing, interacting and teaching the students   </li>
-                </ul>
-            </div>
-            <div class="mailing-list">
-                <h2>Join Our Mailing List!</h2>
-                <form action="./submit-form.html">
-                    <input type="text" id="name" name="name" value="Name" required><br>
-                    <input type="text" id="email" name="email" value="Email" required>
-                    <input type="text" id="phone" name="phone" value="Phone" required><br>
-                    <input type="text" id="message" name="message" value="Leave a Message" required><br>
-                    <input type="submit" id="submit">
-                </form>
-            </div>
-            <div class="donate">
-                <h2>Help Our Cause!</h2>
-                <ul>
-                    <li>build kits for more kids</li>
-                    <li>lead new and different experiments</li>
-                    <li>develop new programs </li>
-                    <li>expand to more schools   </li>
-                </ul>
-                <form action="./donate.html">
-                    <input type="submit" id="submit">
-                </form>
-            </div>
+        <div class="main-body" style="background-image: url('./images/HoS_Background.webp');background-size:cover;">
+            <img src="./images/HoS logo.webp" style="display:block; margin-left:auto; margin-right:auto;border-radius: 50%;">
+            <h2 class="main-webpage" style="text-align:center;font-size:55px;">Pursuing Equity in STEM Education</h2>
         </div>
-        <div class="footer">
-            <h5>© 2021 Hands-On STEM</h5>
+
+        <div>
+            <h2 class="main-webpage" style="padding: 0px 0px 0px 0px;margin: 60px 30px 30px 30px;">What is the achievement gap?</h2>
+            <ul class="sub-page" style="color:black;">
+                <li>There is a significant gap between the grades and dropout rates of BIPOC students and the grades and graduation rates of white students.</li>
+                <li>The factors contributing to this gap are:
+                    <ul>
+                        <li>Socioeconomic status</li>
+                        <li>Quality of education in marginalized communities</li>
+                        <li>Support system at home</li>
+                        <li>Lack of role models within the community</li>
+                        <li>Lack of opportunities in enhancing/reinforcement of knowledge</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div style="background-image: url('./images/WEB-edlab-schoolstats-1020x680.webp');background-repeat:no-repeat;padding:400px 100px 350px 100px;margin:30px 30px 30px 30px;">
+            
+        </div>
+
+
+        <div class="foot">
+            <iframe src = "FOOTER.html" height="700" width="100%" ></iframe>
         </div>
     </body>
+    
 </html>
-
-<!-- https://github.com/emilywang0/hands-on-stem 
-    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 -->
+    
