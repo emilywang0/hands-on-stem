@@ -78,3 +78,115 @@ a:visited {
     border-style:solid;
     background:rgb(239, 229, 202);
 }
+
+#about-us{
+  color: #2C2E2A;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-style: italic;
+}
+
+#about-us-info{
+  color: black;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px 10px 30px 30px;
+  text-align: center;
+  line-height: 1.8em;
+  margin: auto;
+  width: 40%;
+ 
+}
+
+#meet-the-team{
+  color: #2C2E2A;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-style: italic;
+}
+
+#pic{
+  width: 30%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+#container-1 {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-right: 20%;
+    text-align: center;
+    padding: 20px;
+    justify-content: space-evenly!important;
+
+}
+
+#container-2 {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    padding: 20px;
+    justify-content: space-evenly!important;
+  
+}
+
+
+#container-3 {
+    display: flex;
+    margin-top: 10px;
+    margin-right: 20%;
+    margin-left: 20%;
+    text-align: center;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+#container-4 {
+    /* display: flex; */
+    margin-top: 10px;
+    margin-right: 20%;
+    margin-left: 20%;
+    text-align: center;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+
+#full-name{
+  color: #2C2E2A;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+
+  font-weight: bold;
+  font-style: italic;
+  margin: 0;
+}
+
+#title{
+  color: #2C2E2A;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  font-weight: 200;
+  margin:0;
+}
+
+#bio{
+  color: #2C2E2A;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  width: 70%;
+  margin: auto;
+  font-weight: bold;
+  
+}
+
+
+
